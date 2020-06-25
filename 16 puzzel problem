@@ -1,0 +1,27 @@
+Statement of the problem : Implementing 16 puzzle problem using branch and bound.
+
+
+INTRODUCTION
+
+The 15-puzzle is a sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. 
+The puzzle also exists in other sizes, particularly the smaller 8-puzzle. 
+If the size is 3×3 tiles, the puzzle is called the 8-puzzle or 9-puzzle, and if 4×4 tiles,
+the puzzle is called the 15-puzzle or 16-puzzle named, respectively,for the number of tiles and the number of spaces.
+The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space.
+
+
+Backtracking algorithm
+
+It generally finds out all possible solutions. 
+It generally looks like depth first search where it finds out all solutions of the particular node before we move on to the other node. 
+Best  example of backtracking is N-Queen problem where we generally follows with one way
+and if we get the solution we note down it and try to find many other possible ones with different ways of approaching.
+
+
+Branch and bound algorithm
+
+It generally follows the optimization method as we find out the best possible solution which we generally follow in greedy method.
+It finds the best one and bounds the other solutions and tries to bring the best outcome which we branch from that one. 
+Best example of branch and bound is 16-Puzzle problem where we come across to fnd the goal configuration using the initial configuration 
+and we find it by some steps and find out all possible outcomes and branch the best one by formula and bound the remaining. 
+In this way we can approach our problem using branch and bound algorithm.
